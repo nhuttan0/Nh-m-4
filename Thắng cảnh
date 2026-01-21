@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du Lịch An Giang</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Giới thiệu danh lam thắng cảnh nổi bật của An Giang như Rừng Tràm Trà Sư, Núi Sam, Hồ Tà Pạ, Búng Bình Thiên.">
+    <meta name="keywords" content="Du lịch An Giang, danh lam thắng cảnh An Giang, Trà Sư, Núi Sam">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f5f7fa;
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(to right, #1abc9c, #16a085);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.95;
+        }
+
+        /* MENU */
+        nav {
+            background-color: #0f766e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* SECTION */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 15px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #0f766e;
+        }
+
+        /* CARD */
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+        }
+
+        .card img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h3 {
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+
+        .card-content p {
+            color: #4b5563;
+            font-size: 15px;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #0f766e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Du Lịch An Giang</h1>
+    <p>Khám phá vẻ đẹp thiên nhiên – văn hóa – tâm linh vùng Bảy Núi</p>
+</header>
+
+<nav>
+    <a href="#">Trang chủ</a>
+    <a href="#diadiem">Danh lam</a>
+    <a href="#gioithieu">Giới thiệu</a>
+</nav>
+
+<div class="container" id="gioithieu">
+    <h2 class="section-title">Giới Thiệu Chung</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+        An Giang là tỉnh thuộc Đồng bằng sông Cửu Long, nổi tiếng với cảnh quan thiên nhiên hùng vĩ,
+        văn hóa đa dạng của các dân tộc Kinh – Khmer – Chăm và nhiều điểm du lịch tâm linh đặc sắc.
+    </p>
+</div>
+
+<div class="container" id="diadiem">
+    <h2 class="section-title">Danh Lam Thắng Cảnh Nổi Bật</h2>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Tra_Su_Cajuput_Forest.jpg">
+        <div class="card-content">
+            <h3>Rừng Tràm Trà Sư</h3>
+            <p>
+                Rừng Tràm Trà Sư là khu rừng ngập nước tiêu biểu của miền Tây.
+                Nơi đây nổi bật với thảm bèo xanh mát, hệ sinh thái phong phú
+                và trải nghiệm đi xuồng ngắm chim vô cùng hấp dẫn.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Nui_Sam_Chau_Doc.jpg">
+        <div class="card-content">
+            <h3>Núi Sam – Miếu Bà Chúa Xứ</h3>
+            <p>
+                Núi Sam là trung tâm du lịch tâm linh nổi tiếng của An Giang.
+                Miếu Bà Chúa Xứ thu hút hàng triệu lượt khách hành hương mỗi năm,
+                đặc biệt vào mùa lễ hội.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Bung_Binh_Thien.jpg">
+        <div class="card-content">
+            <h3>Búng Bình Thiên</h3>
+            <p>
+                Búng Bình Thiên được mệnh danh là “hồ nước trời”.
+                Mặt nước trong xanh quanh năm, gắn liền với đời sống
+                văn hóa của người Chăm tại An Giang.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Ta_Pa_Lake.jpg">
+        <div class="card-content">
+            <h3>Hồ Tà Pạ</h3>
+            <p>
+                Hồ Tà Pạ gây ấn tượng với làn nước xanh ngọc bích
+                và khung cảnh núi đá độc đáo. Đây là điểm check-in
+                yêu thích của giới trẻ khi đến An Giang.
+            </p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 | Trang Web Du Lịch An Giang</p>
+    <p>Thiết kế đơn giản – Phù hợp học sinh</p>
+</footer>
+
+</body>
+</html>
